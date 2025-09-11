@@ -58,10 +58,129 @@ line-height: normal;
 }
 
 
+.header-content{
+  margin: 35px 271px 0px 130px;
+  display: flex;
+  gap: 276px;
+}
+
+
+.header-text h3{
+  width: 333px;
+  height: 192px;
+  color: #FABE4C;
+font-family: "Bebas Neue";
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 
 
 
+.header-text p{
+  width: 357px;
+  height: 52px; 
+  color: #3E3E3E;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.header-text {
+  margin-top: 70px;
+}
+.proimg {
+  margin-top: 20px;
+}
+
+.cimg {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.btn1 {
+  margin-top: 8px;
+  width: 170px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #a4bc46 0%, #85a019 100%);
+  border: none;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+/* invalid header css */
+  /* .logo{
+    display: flex;
+    justify-content: space-between;
+    width: 55.936px;
+height: 39.266px;
+flex-shrink: 0;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+  } */
+  /* nav {
+    display: flex;                  
+    justify-content: space-between; 
+    align-items: center;            
+    margin: 0px 210px 0px 220px;    
+  } */
+  /* ul {
+    text-decoration: none;
+  } */
 
 
+/* invalid header content css */
+/* .header-content{
+  display: flex;
+  justify-content: space-between;
+}
 
-  
+section>div{
+  padding: 105px 0px 0px 135px;
+}
+section h3{
+  color: #FABE4C;
+font-family: "Bebas Neue";
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+#span2{
+  color: #363958;
+font-family: "Bebas Neue";
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+section p{
+  color: #3E3E3E;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+#img{
+padding: 0px 271px 0px 0px;
+width: 397px;
+height: 394px;
+flex-shrink: 0;
+} */
