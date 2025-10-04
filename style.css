@@ -206,52 +206,49 @@ main h2 {
 }
 
 
-
-.footer{
+.facilities-section {
   display: flex;
   margin: 130px 135px 185px 135px;
+  justify-content: center;
+  align-items: center;
 }
 
-.f-icon img{
-  width: 78px;
-  height: 82px;
-  flex-shrink: 0;
-  background-color: url(<path-to-image>) lightgray 50% / cover no-repeat;
-  padding: 26px 36px 27px 27px;
-}
-.f-icon2{
+.shopping-div img {
   width: 550px;
   margin-top: 50px;
 }
-  
-.f-icon{
+.icons-div {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 489px;
-  height: 135px;
   border-radius: 20px;
   background-color: #fff;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.05);
   margin-bottom: 16px;
   margin-right: 160px;
 }
-
-.f-icon h3{
+.icons-div img {
+  width: 78px;
+  flex-shrink: 0;
+  background-color: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  padding: 26px 36px 27px 27px;
+}
+.icons-div h6 {
   margin-top: 20px;
   color: #363958;
   font-family: Roboto;
   font-size: 24px;
   font-weight: 700;
 }
-
-.f-icon p{
+.icons-div p {
   margin-top: 14px;
   color: #3e3e3e;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
 }
-
 /* footer div{
   display: flex;
   
